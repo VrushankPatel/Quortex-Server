@@ -1,5 +1,0 @@
-com\questa\blogapi\controller\UserController.class
-com\questa\blogapi\QuestaServiceApIsApplication.class
-com\questa\blogapi\service\UserService.class
-com\questa\blogapi\repository\UserRepository.class
-com\questa\blogapi\model\User.class
