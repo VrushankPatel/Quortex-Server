@@ -6,6 +6,7 @@ public class ConstantUtil {
 	public static final Long USER_INCREASE_TIME_FROM_SECOND_LEVEL = 600L; // 10 mins each progress level
 	
 	//UserController end-points
+	public static final String WELCOME_ENDPOINT = "/";
 	public static final String LOGIN_ENDPOINT = "/api/login";
 	public static final String SIGNUP_ENDPOINT = "/api/signup";
 	public static final String UPDATE_USER_PROFILE_ENDPOINT = "/api/updateuserprofile";
@@ -27,7 +28,7 @@ public class ConstantUtil {
 	public static final String FIND_ALL_BY_SUBJECT_TOPIC_ENDPOINT = "/api/findallbysubjecttopic";
 	public static final String FIND_TOP_TEN_USERS_ENDPOINT = "/api/findtoptenusers";
 	
-	public static final String[] AUTH_IGNORE_ENDPOINT = {LOGIN_ENDPOINT,SIGNUP_ENDPOINT,RESET_PASSWORD_ENDPOINT};
+	public static final String[] AUTH_IGNORE_ENDPOINT = {WELCOME_ENDPOINT,LOGIN_ENDPOINT,SIGNUP_ENDPOINT,RESET_PASSWORD_ENDPOINT};
 
 	public static final String PRODUCE_APP_JSON = "application/json";
 	
