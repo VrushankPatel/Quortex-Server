@@ -31,7 +31,9 @@ public class ConstantUtil {
 	public static final String[] AUTH_IGNORE_ENDPOINT = {WELCOME_ENDPOINT,LOGIN_ENDPOINT,SIGNUP_ENDPOINT,RESET_PASSWORD_ENDPOINT};
 
 	public static final String PRODUCE_APP_JSON = "application/json";
-	
+
+	public static final Integer BACKEND_SERVICE_LIVE_SUCCESS_CODE = 268;
+
 	public static final Integer EMAIL_SERVICE_FAILURE_CODE = 551;
 	
 	public static final Integer FAILURE_CODE = 550;
