@@ -25,10 +25,6 @@ public class WebConfig implements WebMvcConfigurer {
             cors.setAllowedMethods(Lists.newArrayList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
             cors.setAllowedHeaders(Lists.newArrayList("*"));
             return cors;
-        }).and().csrf().disable().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
-                .authorizeRequests()
-                .antMatchers("")
-                .permitAll().and()
-                .addFilterBefore(setLoginProcessingFilter(), UsernamePasswordAuthenticationFilter.class);
+        });
     }
 }
